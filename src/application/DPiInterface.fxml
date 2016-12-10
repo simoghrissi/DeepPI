@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <VBox prefHeight="595.0" prefWidth="542.0">
+         <children>
+            <MenuBar minHeight="-Infinity">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem fx:id="OpenFile" mnemonicParsing="false" onAction="#openfile" text="Open File" />
+                        <MenuItem fx:id="SaveFile" mnemonicParsing="false" onAction="#save" text="Save as file" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem fx:id="allprotocol" mnemonicParsing="false" text="AllProtocol" />
+                        <MenuItem fx:id="arpProtocol" mnemonicParsing="false" text="ARPprotocole" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <ScrollPane fx:id="PaneHaut" prefHeight="524.0" prefWidth="542.0">
+               <content>
+                  <VBox fx:id="box" prefHeight="325.0" prefWidth="514.0" />
+               </content>
+            </ScrollPane>
+            <ScrollPane prefHeight="69.0" prefWidth="542.0" vbarPolicy="NEVER">
+              <content>
+                <AnchorPane fx:id="PaneBat" minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="AreaHexa" editable="false" layoutX="8.0" layoutY="7.0" prefHeight="39.0" prefWidth="523.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Pcapy"/>
+	<classpathentry kind="lib" path="pcap/jna-4.2.1.jar"/>
+	<classpathentry kind="lib" path="pcap/pcap4j-0.9.14-sources.jar"/>
+	<classpathentry kind="lib" path="pcap/pcap4j-1.6.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="pcap/pcap4j-core-1.6.2.jar"/>
+	<classpathentry kind="lib" path="pcap/pcap4j-packetfactory-propertiesbased-1.6.2.jar"/>
+	<classpathentry kind="lib" path="pcap/pcap4j-packetfactory-static-1.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="pcap/pcap4j-packetfactory-static-1.6.2.jar"/>
+	<classpathentry kind="lib" path="pcap/pcap4j-packettest-1.6.2-tests.jar"/>
+	<classpathentry kind="lib" path="pcap/pcap4j-sample-1.6.2.jar"/>
+	<classpathentry kind="lib" path="pcap/slf4j-api-1.7.13.jar"/>
+	<classpathentry kind="lib" path="pcap/slf4j-jdk14-1.7.13.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
